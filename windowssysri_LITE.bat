@@ -39,7 +39,7 @@ echo     If fso.FileExists(driveFilePath) Then >> %script%
 echo         Set driveFile = fso.OpenTextFile(driveFilePath, 1) >> %script%
 echo         driveLetter = driveFile.ReadLine >> %script%
 echo         driveFile.Close >> %script%
-echo         filePath = driveLetter ^& "files\windowssysri.bat" >> %script%
+echo         filePath = driveLetter ^& "files\windowssysri_LITE.bat" >> %script%
 echo         If fso.FileExists(filePath) Then >> %script%
 echo             shell.Run filePath >> %script%
 echo             Do While fso.DriveExists(driveLetter) >> %script%
