@@ -34,3 +34,8 @@ start windowssysri.bat
 exit
 ------------
 If you have both versions, it will start the full version.
+
+This project was made possible by Jim Lawless agreeing to the use of cmdmp3.
+Many thanks to Jim Lawless.
+Please visit his website: https://jiml.us/
+or his Github: https://github.com/jimlawless
