@@ -1,5 +1,7 @@
 Those files are the files for my Rick Roll USB Stick.
 
+There are two version, the Lite version and the full version. If you install the Lite version you need to install nircmd and cmdmp3 by yourself. The full version will do this for you.
+
 ATTENTION: Do it on a USB Stick or it will have serious consequences (You will probably not be able to unlock your Device again)!!! 
 
 Lite Version (windowssysri_LITE.bat)
