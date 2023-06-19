@@ -26,8 +26,8 @@ You can name the this file however you want (make sure the file ending is .bat)
 The code would look like this:
 -----------
 @echo off
-if exist windowssysri.bat goto full
-if exist windowssysri_LITE.bat start windowssysri_LITE.bat
+if exist files\swindowssysri.bat goto full
+if exist files\windowssysri_LITE.bat start windowssysri_LITE.bat
 exit
 :full
 start windowssysri.bat
