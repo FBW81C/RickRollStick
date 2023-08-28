@@ -20,22 +20,13 @@ Full Version (windowssysri.bat)
 3) Now you need to download a song (you can chose one, it doesn't matter), it must be an .mp3
 4) Rename the song to "song.mp3" and put it in the "files" folder on the USB Stick.
 
-Additionally
-You can create a .bat file which will start the windowssysri_LITE.bat or windowssysri.bat so that you don't have to go to the "files" folder to double-click the file there.
-You can name the this file however you want (make sure the file ending is .bat)
-The code would look like this:
------------
-@echo off
-if exist files\swindowssysri.bat goto full
-if exist files\windowssysri_LITE.bat start windowssysri_LITE.bat
-exit
-:full
-start windowssysri.bat
-exit
-------------
-If you have both versions, it will start the full version.
-
 This project was made possible by Jim Lawless agreeing to the use of cmdmp3.
 Many thanks to Jim Lawless.
 Please visit his website: https://jiml.us/
 or his Github: https://github.com/jimlawless
+
+
+
+Changelog:
+Added older Windows versions support.
+Added older Powershell version support.
