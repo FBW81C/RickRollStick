@@ -20,12 +20,16 @@ Full Version (windowssysri.bat)
 3) Now you need to download a song (you can chose one, it doesn't matter), it must be an .mp3
 4) Rename the song to "song.mp3" and put it in the "files" folder on the USB Stick.
 
+---- HOW TO ACTIVATE ----
+Just insert the USB stick and double click the file. From the next reboot on it will start automatically every time, you insert it.
+
+---- HOW TO DEACTIVATE ----
+Simply remove "winsysri.vbs" from the autostart section in task manager.
+
 This project was made possible by Jim Lawless agreeing to the use of cmdmp3.
 Many thanks to Jim Lawless.
 Please visit his website: https://jiml.us/
 or his Github: https://github.com/jimlawless
-
-
 
 Changelog:
 Added older Windows versions support.
