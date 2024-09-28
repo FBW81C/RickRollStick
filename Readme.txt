@@ -24,7 +24,7 @@ Full Version (windowssysri.bat)
 Just insert the USB stick and double click the file. From the next reboot on it will start automatically every time, you insert it.
 
 ---- HOW TO DEACTIVATE ----
-Simply remove "winsysri.vbs" from the autostart section in task manager.
+Simply remove "testwindowssysri.vbs" from the autostart section in task manager.
 
 This project was made possible by Jim Lawless agreeing to the use of cmdmp3.
 Many thanks to Jim Lawless.
